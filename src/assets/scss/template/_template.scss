@@ -95,3 +95,60 @@ table.button.large table tr td a:visited {
 table.button.large table a{
   padding: 5px 25px 5px 25px;
 }
+
+/* Upper */
+.bgnewyear {
+  background-color: #27282a !important;
+  
+  background-size: cover;
+  background-repeat: no-repeat !important;
+
+}
+
+.bgColorNewYear {
+  background-color: #27282a !important;
+
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.bigTitle {
+  font-size: 40px;
+  font-weight: 550;
+
+}
+
+.gold {
+  color: #c9984f;
+}
+
+.strech {
+  letter-spacing: -3px;
+}
+
+th.columns {
+  padding-bottom: 0;
+}
+
+
+@media only screen and (max-width:596px) {
+  .bgnewyear {
+      background-size: contain !important;
+  }
+
+  .bigTitle {
+      font-size: 30px;
+      font-weight: 400;
+
+  }
+
+  .strechText {
+      letter-spacing: -1px;
+  }
+}
+
+.body .columns th.large-1 {
+  width: 11.5% !important;
+}
