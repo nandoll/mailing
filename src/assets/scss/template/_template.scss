@@ -147,7 +147,18 @@ th.columns {
       letter-spacing: -1px;
   }
 }
+// th.small-12.large-6 td {
+//   border: 1px solid red;
+  
+// }
 
-.body .columns th.large-1 {
-  width: 11.5% !important;
+
+// .body .columns th.large-1 {
+//   // width: 11.5% !important;
+// }
+
+//Reescribir cuando collapasa varios tablas
+
+table.container{
+  background-color: transparent;
 }
