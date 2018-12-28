@@ -1,3 +1,8 @@
+/*btns*/
+table.button.warning.large table td {
+  background: #ffdb00;
+  border: 0px solid #ffdb00; }
+
 .wrapper {
   width: 100%; }
 
@@ -112,7 +117,8 @@ th.large-1.last {
   padding-left: 0;
   width: 48.33333px; }
 
-.collapse th.large-1.first {
+.collapse th.large-1.first,
+.collapse th.large-1.last {
   width: 56.33333px; }
 
 th.large-1 center {
@@ -281,6 +287,9 @@ th.large-10 {
   padding-left: 8px;
   padding-right: 8px; }
 
+.body .columns th.large-10 {
+  width: 83.33333%; }
+
 th.large-12 {
   width: 564px;
   padding-left: 8px;
@@ -365,7 +374,7 @@ a {
   margin: 0;
   Margin: 0;
   text-align: left;
-  line-height: 1.3; }
+  line-height: 1; }
 
 h1,
 h2,
@@ -404,7 +413,7 @@ p,
 td,
 th {
   font-size: 16px;
-  line-height: 1.3; }
+  line-height: 1; }
 
 p {
   margin-bottom: 10px;
@@ -532,6 +541,19 @@ table.button.success:hover table td {
 table.button.success:hover table a {
   border: 0 solid #23bf5d; }
 
+table.button.warning table td {
+  background: #ffdb00;
+  border: 0px solid #ffdb00; }
+
+table.button.warning table a {
+  border: 0px solid #ffdb00; }
+
+table.button.warning:hover table td {
+  background: #ccaf00; }
+
+table.button.warning:hover table a {
+  border: 0px solid #ccaf00; }
+
 table.callout {
   margin-bottom: 16px;
   Margin-bottom: 16px; }
@@ -598,6 +620,9 @@ table.menu.text-center a {
   th.small-2 {
     display: inline-block !important;
     width: 16.66667% !important; }
+  th.small-5 {
+    display: inline-block !important;
+    width: 41.66667% !important; }
   th.small-6 {
     display: inline-block !important;
     width: 50% !important; }
@@ -670,6 +695,12 @@ table.button.google table td {
 .wrapper.secondary {
   background: #f3f3f3; }
 
+.txtWhite {
+  color: white; }
+
+table.button.warning table a {
+  color: #be1c1d; }
+
 table.button:hover table tr td a,
 table.button:active table tr td a,
 table.button table tr td a:visited,
@@ -711,3 +742,23 @@ table.container {
 
 .bold {
   font-weight: 700; }
+
+@media screen and (max-width: 596px) {
+  .titleResp {
+    font-size: 16px !important;
+    padding: 0 8px; }
+  .subResp {
+    font-size: 10px !important; }
+  .bigTitleR {
+    font-size: 40px !important; }
+  .midTitleR {
+    font-size: 20px !important; }
+  .curTitleR {
+    font-size: 30px !important; }
+  .offerR {
+    text-align: center !important;
+    margin-bottom: 0 !important; }
+  .wishR {
+    font-size: 19px !important; }
+  .dsctR {
+    font-size: 10px; } }

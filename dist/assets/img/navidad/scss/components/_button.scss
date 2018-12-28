@@ -286,7 +286,7 @@ table.button.alert:hover {
   }
 }
 
-table.button.warning {
+table.button.warning.large {
   table {
     td {
       background: $warning-color;
@@ -299,7 +299,7 @@ table.button.warning {
   }
 }
 
-table.button.warning:hover {
+table.button.warning.large:hover {
   table {
     td {
       background: darken($warning-color, 10%);
