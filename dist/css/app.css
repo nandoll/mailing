@@ -107,8 +107,19 @@ th.large-1.first {
 th.large-1.last {
   padding-right: 16px; }
 
+.collapse > tbody > tr > th.large-1 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 48.33333px; }
+
+.collapse th.large-1.first {
+  width: 56.33333px; }
+
 th.large-1 center {
   min-width: 0.33333px; }
+
+.body .columns th.large-1 {
+  width: 8.33333%; }
 
 th.large-2 {
   width: 80.66667px;
@@ -166,6 +177,9 @@ th.large-4.last {
 
 th.large-4 center {
   min-width: 145.33333px; }
+
+.body .columns th.large-4 {
+  width: 33.33333%; }
 
 th.large-5 {
   width: 225.66667px;
