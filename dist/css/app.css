@@ -541,6 +541,19 @@ table.button.success:hover table td {
 table.button.success:hover table a {
   border: 0 solid #23bf5d; }
 
+table.button.alert table td {
+  background: #ed1d25;
+  border: 0px solid #ed1d25; }
+
+table.button.alert table a {
+  border: 0 solid #ed1d25; }
+
+table.button.alert:hover table td {
+  background: #c71017; }
+
+table.button.alert:hover table a {
+  border: 0 solid #c71017; }
+
 table.button.warning table td {
   background: #ffdb00;
   border: 0px solid #ffdb00; }
