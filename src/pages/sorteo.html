@@ -37,10 +37,25 @@ subject: Sodexo - Horario de verano Afiliados
 
         .fxTittle {
             font-size: 20px !important;
+            padding-top: 6px !important;
+            padding-bottom: 7px !important;
         }
 
         .fxCorner {
             height: 33px !important;
+            display: none !important;
+        }
+
+        table.body.fixCollapse {
+            width: 100% !important;
+        }
+
+        .fixTextTerms {
+            font-size: 17px !important;
+        }
+
+        table.body .fixCollapse {
+            width: 100% !important;
         }
     }
 </style>
@@ -81,20 +96,35 @@ subject: Sodexo - Horario de verano Afiliados
             <!-- 3 -->
             <container>
                 <row class="collapse">
-                    <columns large="2" small="1" valign="middle">
-                        <img align="right" class="fxCorner" src="http://images.masterbase.com/v1/sodexoperumktpe/b/spring/m12/d26/cornerLeft.png"
-                            width="28">
+                    <columns>
+                        <container>
+                            <row>
+                                <columns large="2" small="1" valign="middle">
+                                    <!-- <img align="right" class="fxCorner" src="http://images.masterbase.com/v1/sodexoperumktpe/b/spring/m12/d26/cornerLeft.png"
+                                        width="28"> -->
+                                </columns>
+                                <columns large="8" small="10" style="background-color: #2a275e;" valign="middle">
+                                    <spacer size="8"></spacer>
+                                    <row>
+
+                                        <columns>
+                                            <p class="text-center fxTittle" style="color: white; text-transform: uppercase; font-weight: bold; font-size: 28px; margin-bottom:0;">SORTEO
+                                                18 DE ENERO</p>
+                                        </columns>
+
+
+                                    </row>
+                                    <spacer size="8"></spacer>
+                                </columns>
+                                <columns large="2" small="1">
+                                    <!-- <img align="left" class="fxCorner" src="http://images.masterbase.com/v1/sodexoperumktpe/b/spring/m12/d26/cornerRight.png"
+                                        width="28"> -->
+                                </columns>
+                            </row>
+                        </container>
                     </columns>
 
-                    <columns large="8" small="10" valign="middle" style="background-color:#2a275e;  padding-bottom:6px; padding-top:7px; ">
-                        <p class="text-center fxTittle" style="color: white; text-transform: uppercase; font-weight: bold; font-size: 30px; margin-bottom:0;">SORTEO
-                            18 DE ENERO</p>
-                    </columns>
 
-                    <columns large="2" small="1">
-                        <img align="left" class="fxCorner" src="http://images.masterbase.com/v1/sodexoperumktpe/b/spring/m12/d26/cornerRight.png"
-                            width="28">
-                    </columns>
                 </row>
             </container>
             <!-- 3 -->
@@ -125,30 +155,26 @@ subject: Sodexo - Horario de verano Afiliados
             <!-- 5 -->
             <!-- 6 -->
             <container>
-                <row class="collapse">
-                    <columns large="12" small="12">
-                        <container style="padding-bottom: 0; background-color:#ec1e23;  margin-left:0; margin-right: 0; width:100%!important">
-                            <row>
-                                <columns large="2" small="1" valign="bottom">
-                                    <spacer size="1"></spacer>
-                                </columns>
-                                <columns large="8" small="10" style="background-color:#ec1e23; padding-bottom: 0">
-                                    <spacer size="24"></spacer>
-                                    <p class="text-center" style=" color: white; font-weight: bold; font-size: 21px;">TÉRMINOS
+                <row>
+                    <columns large="12" small="12" style="background-color: #ec1e23; padding-bottom: 0">
+                        <container class="fixCollapse">
+                            <spacer size="16"></spacer>
+                            <row class="collapse">
+
+                                <columns valign="middle">
+                                    <p class="text-center fixTextTerms" style=" color: white; font-weight: bold; font-size: 21px;">TÉRMINOS
                                         Y
                                         CONDICIONES
                                     </p>
                                 </columns>
-                                <columns large="2" small="1" valign="bottom">
-                                    <img align="right" class="fxCorner" src="http://images.masterbase.com/v1/sodexoperumktpe/b/spring/m01/d08/border_bottom_right.png"
-                                        width="19" height="63">
-                                </columns>
+
                             </row>
+                            <spacer size="8"></spacer>
                         </container>
                     </columns>
+
                 </row>
                 <spacer size="32"></spacer>
-
             </container>
             <!-- 6 -->
             <!-- 7 -->
