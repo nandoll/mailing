@@ -1,8 +1,4 @@
-/*btns*/
-table.button.warning.large table td {
-  background: #ffdb00;
-  border: 0px solid #ffdb00; }
-
+@charset "UTF-8";
 .wrapper {
   width: 100%; }
 
@@ -57,10 +53,10 @@ table, tr, td {
 @media only screen {
   html {
     min-height: 100%;
-    background: #f3f3f3; } }
+    background: #ffffff; } }
 
 table.body {
-  background: #f3f3f3;
+  background: #ffffff;
   height: 100%;
   width: 100%; }
 
@@ -111,15 +107,6 @@ th.large-1.first {
 
 th.large-1.last {
   padding-right: 16px; }
-
-.collapse > tbody > tr > th.large-1 {
-  padding-right: 0;
-  padding-left: 0;
-  width: 48.33333px; }
-
-.collapse th.large-1.first,
-.collapse th.large-1.last {
-  width: 56.33333px; }
 
 th.large-1 center {
   min-width: 0.33333px; }
@@ -249,19 +236,8 @@ th.large-7.first {
 th.large-7.last {
   padding-right: 16px; }
 
-.collapse > tbody > tr > th.large-7 {
-  padding-right: 0;
-  padding-left: 0;
-  width: 338.33333px; }
-
-.collapse th.large-7.last {
-  width: 346.33333px; }
-
 th.large-7 center {
   min-width: 290.33333px; }
-
-.body .columns th.large-7 {
-  width: 58.33333%; }
 
 th.large-8 {
   width: 370.66667px;
@@ -286,6 +262,9 @@ th.large-10 {
   width: 467.33333px;
   padding-left: 8px;
   padding-right: 8px; }
+
+th.large-10.last {
+  padding-right: 16px; }
 
 .body .columns th.large-10 {
   width: 83.33333%; }
@@ -329,9 +308,6 @@ h4.text-center,
 h5.text-center,
 p.text-center {
   text-align: center; }
-
-p.text-left {
-  text-align: left; }
 
 p.text-right {
   text-align: right; }
@@ -441,7 +417,7 @@ span.preheader {
   visibility: hidden;
   mso-hide: all !important;
   font-size: 1px;
-  color: #f3f3f3;
+  color: #ffffff;
   line-height: 1px;
   max-height: 0px;
   max-width: 0px;
@@ -554,19 +530,6 @@ table.button.alert:hover table td {
 table.button.alert:hover table a {
   border: 0 solid #c71017; }
 
-table.button.warning table td {
-  background: #ffdb00;
-  border: 0px solid #ffdb00; }
-
-table.button.warning table a {
-  border: 0px solid #ffdb00; }
-
-table.button.warning:hover table td {
-  background: #ccaf00; }
-
-table.button.warning:hover table a {
-  border: 0px solid #ccaf00; }
-
 table.callout {
   margin-bottom: 16px;
   Margin-bottom: 16px; }
@@ -633,6 +596,9 @@ table.menu.text-center a {
   th.small-2 {
     display: inline-block !important;
     width: 16.66667% !important; }
+  th.small-3 {
+    display: inline-block !important;
+    width: 25% !important; }
   th.small-5 {
     display: inline-block !important;
     width: 41.66667% !important; }
@@ -669,10 +635,10 @@ table.menu.text-center a {
 body,
 html,
 .body {
-  background: #f3f3f3 !important; }
+  background: #ffffff !important; }
 
 .container.header {
-  background: #f3f3f3; }
+  background: #ffffff; }
 
 .body-drip {
   border-top: 8px solid #663399; }
@@ -706,13 +672,10 @@ table.button.google table td {
   border-color: #DB4A39; }
 
 .wrapper.secondary {
-  background: #f3f3f3; }
+  background: #ffffff; }
 
 .txtWhite {
   color: white; }
-
-table.button.warning table a {
-  color: #be1c1d; }
 
 table.button:hover table tr td a,
 table.button:active table tr td a,
@@ -725,53 +688,17 @@ table.button.large table tr td a:visited {
 table.button.large table a {
   padding: 5px 25px 5px 25px; }
 
-/* Upper */
+/* @import './escolaridad/config' */
+/* Prommociones
+Para el día 17 */
+.accentBgColor {
+  background-color: #2d2b5d; }
 
-.upper {
-  text-transform: uppercase; }
+.textCenter {
+  text-align: center; }
 
-.bigTitle {
-  font-size: 40px;
-  font-weight: 550; }
-
-.gold {
-  color: #c9984f; }
-
-th.columns {
-  padding-bottom: 0; }
-
-@media only screen and (max-width: 596px) {
-  .bigTitle {
-    font-size: 30px;
-    font-weight: 400; }
-  .strechText {
-    letter-spacing: -1px; } }
-
-table.container {
-  background-color: transparent; }
-
-.white {
-  color: white; }
-
-.bold {
+.textBold {
   font-weight: 700; }
 
-@media screen and (max-width: 596px) {
-  .titleResp {
-    font-size: 16px !important;
-    padding: 0 8px; }
-  .subResp {
-    font-size: 10px !important; }
-  .bigTitleR {
-    font-size: 40px !important; }
-  .midTitleR {
-    font-size: 20px !important; }
-  .curTitleR {
-    font-size: 30px !important; }
-  .offerR {
-    text-align: center !important;
-    margin-bottom: 0 !important; }
-  .wishR {
-    font-size: 19px !important; }
-  .dsctR {
-    font-size: 10px; } }
+.textUpper {
+  text-transform: uppercase; }

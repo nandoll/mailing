@@ -1,6 +1,17 @@
 @import "./settings";
 @import 'foundation-emails';
 @import 'template/template';
-@import './typography/colors';
+
+// Para Escolaridad
+/* @import './escolaridad/config' */
+
+/* Prommociones
+Para el día 17 */
+
+// @import './promociones/promociones17';
+
+// Descarga el app sodexo
+
+@import './appSodexo/app';
 
 
