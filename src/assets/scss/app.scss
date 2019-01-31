@@ -1,4 +1,4 @@
-@import "./settings";
+@import "settings";
 @import 'foundation-emails';
 @import 'template/template';
 
@@ -12,6 +12,18 @@ Para el día 17 */
 
 // Descarga el app sodexo
 
-@import './appSodexo/app';
+// @import './appSodexo/app';
+
+/* 
+    Maquetado mailing día 25/10/19 
+    Cliente : Sodexo
+    Campaña : Horario de verano
+    
+
+*/
+
+@import './horas-extras/mailing'
+
+
 
 

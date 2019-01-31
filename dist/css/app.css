@@ -61,7 +61,7 @@ table.body {
   width: 100%; }
 
 table.container {
-  background: #fefefe;
+  background: #ffffff;
   width: 580px;
   margin: 0 auto;
   Margin: 0 auto;
@@ -108,6 +108,15 @@ th.large-1.first {
 th.large-1.last {
   padding-right: 16px; }
 
+.collapse > tbody > tr > th.large-1 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 48.33333px; }
+
+.collapse th.large-1.first,
+.collapse th.large-1.last {
+  width: 56.33333px; }
+
 th.large-1 center {
   min-width: 0.33333px; }
 
@@ -147,6 +156,9 @@ th.large-3.first {
 
 th.large-3.last {
   padding-right: 16px; }
+
+.body .columns th.large-3 {
+  width: 25%; }
 
 th.large-4 {
   width: 177.33333px;
@@ -236,8 +248,19 @@ th.large-7.first {
 th.large-7.last {
   padding-right: 16px; }
 
+.collapse > tbody > tr > th.large-7 {
+  padding-right: 0;
+  padding-left: 0;
+  width: 338.33333px; }
+
+.collapse th.large-7.last {
+  width: 346.33333px; }
+
 th.large-7 center {
   min-width: 290.33333px; }
+
+.body .columns th.large-7 {
+  width: 58.33333%; }
 
 th.large-8 {
   width: 370.66667px;
@@ -258,6 +281,14 @@ th.large-8.last {
 .body .columns th.large-8 {
   width: 66.66667%; }
 
+th.large-9 {
+  width: 419px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-9.first {
+  padding-left: 16px; }
+
 th.large-10 {
   width: 467.33333px;
   padding-left: 8px;
@@ -268,6 +299,17 @@ th.large-10.last {
 
 .body .columns th.large-10 {
   width: 83.33333%; }
+
+th.large-11 {
+  width: 515.66667px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-11.last {
+  padding-right: 16px; }
+
+.body .columns th.large-11 {
+  width: 91.66667%; }
 
 th.large-12 {
   width: 564px;
@@ -308,6 +350,9 @@ h4.text-center,
 h5.text-center,
 p.text-center {
   text-align: center; }
+
+p.text-left {
+  text-align: left; }
 
 p.text-right {
   text-align: right; }
@@ -403,14 +448,14 @@ small {
   color: #cacaca; }
 
 a {
-  color: #2199e8;
+  color: #fff;
   text-decoration: none; }
   a:hover {
-    color: #147dc2; }
+    color: #e6e6e6; }
   a:active {
-    color: #147dc2; }
+    color: #e6e6e6; }
   a:visited {
-    color: #2199e8; }
+    color: #fff; }
 
 span.preheader {
   display: none !important;
@@ -431,8 +476,8 @@ table.button {
   table.button table td {
     text-align: left;
     color: #bf1a1e;
-    background: #2199e8;
-    border: 2px solid #2199e8; }
+    background: #fff;
+    border: 2px solid #fff; }
     table.button table td a {
       font-family: Helvetica, Arial, sans-serif;
       font-size: 16px;
@@ -441,7 +486,7 @@ table.button {
       text-decoration: none;
       display: inline-block;
       padding: 8px 16px 8px 16px;
-      border: 0 solid #2199e8;
+      border: 0 solid #fff;
       border-radius: 3px; }
 
 table.button:hover table tr td a,
@@ -471,13 +516,13 @@ table.button.expand {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #147dc2;
+  background: #e6e6e6;
   color: #bf1a1e; }
 
 table.button:hover table a,
 table.button:visited table a,
 table.button:active table a {
-  border: 0 solid #147dc2; }
+  border: 0 solid #e6e6e6; }
 
 table.button.secondary table td {
   background: #777777;
@@ -530,17 +575,30 @@ table.button.alert:hover table td {
 table.button.alert:hover table a {
   border: 0 solid #c71017; }
 
+table.button.warning table td {
+  background: #ffdb00;
+  border: 0px solid #ffdb00; }
+
+table.button.warning table a {
+  border: 0px solid #ffdb00; }
+
+table.button.warning:hover table td {
+  background: #ccaf00; }
+
+table.button.warning:hover table a {
+  border: 0px solid #ccaf00; }
+
 table.callout {
   margin-bottom: 16px;
   Margin-bottom: 16px; }
 
 th.callout-inner {
   width: 100%;
-  border: 1px solid #cbcbcb;
+  border: 1px solid #cccccc;
   padding: 10px;
-  background: #fefefe; }
+  background: #fff; }
   th.callout-inner.primary {
-    background: #def0fc;
+    background: white;
     border: 1px solid #444444;
     color: #0a0a0a; }
   th.callout-inner.secondary {
@@ -554,7 +612,7 @@ table.menu {
     padding: 10px;
     padding-right: 10px; }
     table.menu th.menu-item a {
-      color: #2199e8; }
+      color: #fff; }
 
 table.menu.vertical th.menu-item {
   padding: 10px;
@@ -599,6 +657,9 @@ table.menu.text-center a {
   th.small-3 {
     display: inline-block !important;
     width: 25% !important; }
+  th.small-4 {
+    display: inline-block !important;
+    width: 33.33333% !important; }
   th.small-5 {
     display: inline-block !important;
     width: 41.66667% !important; }
@@ -611,6 +672,9 @@ table.menu.text-center a {
   th.small-8 {
     display: inline-block !important;
     width: 66.66667% !important; }
+  th.small-9 {
+    display: inline-block !important;
+    width: 75% !important; }
   th.small-10 {
     display: inline-block !important;
     width: 83.33333% !important; }
@@ -635,7 +699,7 @@ table.menu.text-center a {
 body,
 html,
 .body {
-  background: #ffffff !important; }
+  background: #fff !important; }
 
 .container.header {
   background: #ffffff; }
@@ -677,6 +741,9 @@ table.button.google table td {
 .txtWhite {
   color: white; }
 
+table.button.warning table a {
+  color: #be1c1d; }
+
 table.button:hover table tr td a,
 table.button:active table tr td a,
 table.button table tr td a:visited,
@@ -691,9 +758,23 @@ table.button.large table a {
 /* @import './escolaridad/config' */
 /* Prommociones
 Para el día 17 */
-.accentBgColor {
-  background-color: #2d2b5d; }
+/* 
+    Maquetado mailing día 25/10/19 
+    Cliente : Sodexo
+    Campaña : Horario de verano
+    
 
+*/
+.accentBgColor {
+  background-color: #453f7a; }
+
+.textAccent {
+  color: #453f7a; }
+
+.textSize30 {
+  font-size: 28px; }
+
+/* De aca hacia abajo es de escolaridad */
 .textCenter {
   text-align: center; }
 
@@ -702,3 +783,54 @@ Para el día 17 */
 
 .textUpper {
   text-transform: uppercase; }
+
+.primaryColor {
+  color: #007eb1; }
+
+.secondaryColor {
+  color: #ed1b24; }
+
+.terciaryColor {
+  color: #5a5a5a; }
+
+.primaryBgColor {
+  background-color: #007eb1; }
+
+.secondaryBgColor {
+  background-color: #ed1b24; }
+
+.terciaryBgColor {
+  background-color: #ecf1f7; }
+
+.textNoMargin {
+  margin: 0 !important; }
+
+.textWidthPadding {
+  padding-left: 16px !important; }
+
+.textWidthPaddingR {
+  padding-right: 16px !important; }
+
+.textSize38 {
+  font-size: 35px; }
+
+.textSize20 {
+  font-size: 20px; }
+
+.textSize18 {
+  font-size: 20px; }
+
+.textSize17 {
+  font-size: 20px; }
+
+.textSize16 {
+  font-size: 16px; }
+
+.textSize14 {
+  font-size: 14px; }
+
+.textSize11 {
+  font-size: 11px; }
+
+.textSpacing {
+  letter-spacing: -1px; }

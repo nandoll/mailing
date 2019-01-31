@@ -1,0 +1,95 @@
+$primary : #007eb1;
+$secondary : #ed1b24;
+$terciary : #5a5a5a;
+$terciarybg : #ecf1f7;
+
+
+$accent : #453f7a;
+
+.accentBgColor{
+    background-color: $accent;
+}
+.textAccent{
+    color: $accent;
+}
+.textSize30{
+    font-size: 28px
+}
+
+/* De aca hacia abajo es de escolaridad */
+
+.textCenter{
+    text-align: center;
+}
+
+.textBold{
+    font-weight: 700;
+}
+
+.textUpper{
+    text-transform: uppercase;
+}
+
+.primaryColor{
+    color: $primary;
+}
+
+.secondaryColor{
+    color: $secondary;
+}
+
+.terciaryColor{
+    color: $terciary;
+}
+
+.primaryBgColor{
+    background-color: $primary;
+}
+
+.secondaryBgColor{
+    background-color: $secondary;
+}
+
+.terciaryBgColor{
+    background-color: $terciarybg;
+}
+.textNoMargin{
+    margin:0 !important;
+}
+.textWidthPadding{
+    padding-left:16px !important;
+}
+.textWidthPaddingR{
+    padding-right:16px !important;
+}
+.textSize38{
+    font-size: 35px;
+}
+
+
+.textSize20{
+    font-size: 20px
+}
+
+.textSize18{
+    font-size: 20px
+}
+
+.textSize17{
+    font-size: 20px
+}
+
+.textSize16{
+    font-size: 16px;
+}
+
+.textSize14{
+    font-size: 14px
+}
+
+.textSize11{
+    font-size: 11px
+}
+.textSpacing{
+    letter-spacing: -1px;
+}
